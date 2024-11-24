@@ -1,0 +1,21 @@
+{% extends "menu.html" %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{name}}</title>
+</head>
+
+
+{% block pagename %}
+    {{ block.super }}
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+    {{ block.super }}
+    <p></p>
+{% endblock %}
